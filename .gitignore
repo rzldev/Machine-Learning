@@ -175,3 +175,6 @@ vignettes/*.pdf
 
 # pkgdown site
 docs/
+
+################## Additionals ################# 
+machine-learning/
