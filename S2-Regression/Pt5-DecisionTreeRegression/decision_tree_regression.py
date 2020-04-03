@@ -17,7 +17,7 @@ from sklearn.tree import DecisionTreeRegressor
 regressor = DecisionTreeRegressor(random_state=0)
 regressor.fit(x, y)
 
-## Visualizing the SVR results
+## Visualizing the Decision Tree results
 x_grid = np.arange(min(x), max(x), 0.001)
 x_grid = x_grid.reshape(len(x_grid), 1)
 plt.scatter(x, y, color='red')
