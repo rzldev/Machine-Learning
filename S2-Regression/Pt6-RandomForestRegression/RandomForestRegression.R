@@ -14,7 +14,7 @@ install.packages('randomForest')
 set.seed(1234)
 library(randomForest)
 
-regressor = randomForest(x=dataset[1], y=dataset$Salary, ntree=300)
+regressor = randomForest(x=dataset[1], y=dataset$Salary, ntree=500)
 
 ## Visualizing the Random Forest Regression results
 library(ggplot2)

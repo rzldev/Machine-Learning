@@ -15,7 +15,7 @@ from sklearn.ensemble import RandomForestRegressor
 regressor = RandomForestRegressor(n_estimators=500, random_state=0)
 regressor.fit(x, y)
 
-## Visualizing the Random Decision Regression results
+## Visualizing the Random Forest Regression results
 x_grid = np.arange(min(x), max(x), 0.001)
 x_grid = x_grid.reshape(len(x_grid), 1)
 plt.scatter(x, y, color='red')
